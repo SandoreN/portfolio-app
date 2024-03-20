@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 id="greeting">My GitHub Profile</h1>
+            <nav>
+                <a href="/">Home</a>
+                <a href="/github">GitHub</a>
+                <a href="/linkedin">LinkedIn</a>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <section id="main">
+            <h2>GitHub</h2>
+            <p>Check out my GitHub profile <a href="https://github.com/sandoren">here</a>. You can find my projects, contributions, and more about my coding journey.</p>
+        </section>
+    </div>
+    <footer>
+        <p>Portfolio Site &copy; 2024</p>
+    </footer>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

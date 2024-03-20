@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 id="greeting">Welcome to My Portfolio</h1>
+            <nav>
+                <a href="/">Home</a>
+                <a href="/github">GitHub</a>
+                <a href="/linkedin">LinkedIn</a>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <section id="main">
+            <h2>About Me</h2>
+            <p>Nicholas Sandore is currently completing his senior year at Southern Connecticut University, where currently works on his skills in technology and software development. He works at Cangrade, serving as both a Technical Support Specialist and Software Developer. This role allows him to blend his technical expertise with customer support, showcasing a versatile skill set.</p>
+        </section>
+    </div>
+    <footer>
+        <p>Portfolio Site &copy; 2024</p>
+    </footer>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
